@@ -13,7 +13,6 @@ This solution involves a complete data science pipeline, from cleaning noisy tex
 
 ## Technology Stack & Libraries
 The project is implemented in Python and leverages the following core libraries:
-
 ## Data & NLP
 - pandas and numpy: For data manipulation and numerical operations.
 
