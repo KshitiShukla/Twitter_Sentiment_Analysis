@@ -54,14 +54,14 @@ The solution follows a structured approach to tackle the NLP classification prob
 
 ## Technical Dependencies & Environment
 
--Category
--Tools / Libraries Used
--Data & NLP
--pandas, numpy, re (Regex), nltk, CountVectorizer, TfidfVectorizer
--Machine Learning
--sklearn (Scikit-learn), LogisticRegression, SVC, XGBClassifier
--Visualization
--matplotlib, seaborn, wordcloud
+Category
+Tools / Libraries Used
+Data & NLP
+pandas, numpy, re (Regex), nltk, CountVectorizer, TfidfVectorizer
+Machine Learning
+sklearn (Scikit-learn), LogisticRegression, SVC, XGBClassifier
+Visualization
+matplotlib, seaborn, wordcloud
 
 ## Conclusion & Future Work
 
