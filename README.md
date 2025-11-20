@@ -20,54 +20,47 @@ Model Evaluation: Performance is primarily measured using the F1-Score, a key me
 
 The solution follows a structured approach to tackle the NLP classification problem:
 
-1. Data Loading & Initial Exploration
+**1. Data Loading & Initial Exploration**
 
-Loading the dataset of tweets and their corresponding labels.
+- Loading the dataset of tweets and their corresponding labels.
 
-Performing an initial analysis of the data structure and label distribution.
+- Performing an initial analysis of the data structure and label distribution.
 
-2. Tweets Preprocessing & Cleaning
+**2. Tweets Preprocessing & Cleaning**
 
-Noise Removal: Removing Twitter-specific noise like mentions (@user), URLs, hashtags symbols (#), and special characters.
+- Noise Removal: Removing Twitter-specific noise like mentions (@user), URLs, hashtags symbols (#), and special characters.
 
-Tokenization & Normalization: Converting text to lowercase, tokenizing the text, and applying techniques like stemming (or lemmatization) to reduce words to their root form.
+- Tokenization & Normalization: Converting text to lowercase, tokenizing the text, and applying techniques like stemming (or lemmatization) to reduce words to their root form.
 
-3. Exploratory Data Analysis (EDA)
+**3. Exploratory Data Analysis (EDA)**
 
-Visualizing the most common words and trends in the entire dataset.
+- Visualizing the most common words and trends in the entire dataset.
 
-Separately analyzing word frequencies and hashtags associated with the two sentiment classes (Hate Speech vs. Non-Hate Speech) to gain contextual insights.
+- Separately analyzing word frequencies and hashtags associated with the two sentiment classes (Hate Speech vs. Non-Hate Speech) to gain contextual insights.
 
-4. Feature Extraction
+**4. Feature Extraction**
 
-Transforming the cleaned text into numerical features that machine learning models can process. Two primary methods are used:
+- Transforming the cleaned text into numerical features that machine learning models can process. Two primary methods are used:
 
-Bag-of-Words (CountVectorizer)
+- Bag-of-Words (CountVectorizer)
 
-TF-IDF (TfidfVectorizer)
+- TF-IDF (TfidfVectorizer)
 
-5. Model Training & Evaluation
+**5. Model Training & Evaluation**
 
-Training various classification models: LogisticRegression, SVC (Support Vector Classifier), and XGBClassifier (XGBoost), using the extracted features.
+- Training various classification models: LogisticRegression, SVC (Support Vector Classifier), and XGBClassifier (XGBoost), using the extracted features.
 
-Evaluating model performance, with a primary focus on maximizing the F1-Score.
+- Evaluating model performance, with a primary focus on maximizing the F1-Score.
 
 ## Technical Dependencies & Environment
 
 Category
-
 Tools / Libraries Used
-
 Data & NLP
-
 pandas, numpy, re (Regex), nltk, CountVectorizer, TfidfVectorizer
-
 Machine Learning
-
 sklearn (Scikit-learn), LogisticRegression, SVC, XGBClassifier
-
 Visualization
-
 matplotlib, seaborn, wordcloud
 
 ## Conclusion & Future Work
